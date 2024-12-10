@@ -8,7 +8,13 @@
 }
 
 body {
-  background-image: linear-gradient(to bottom right, purple, pink);
+  /* background-image: linear-gradient(to bottom right, purple, pink); */
+  background: linear-gradient(
+    135deg,
+    rgba(121, 9, 119, 1),
+    70%,
+    rgba(0, 212, 255, 1) 100%
+  );
   display: flex;
   justify-content: center;
   align-items: center;
